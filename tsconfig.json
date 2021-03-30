@@ -4,8 +4,10 @@
     "module": "CommonJS",
     "strict": false,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "declaration": true
   },
   "exclude": ["node_modules"],
-  "include": ["book.ts"]
+  "include": ["index.ts", "book.ts"]
 }
