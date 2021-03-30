@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+          scope: "@eyesofbanquo"
       - run: npm ci
       - run: npm publish
         env:
