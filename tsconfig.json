@@ -9,5 +9,5 @@
     "declaration": true
   },
   "exclude": ["node_modules"],
-  "include": ["index.ts", "book.ts"]
+  "include": ["index.ts", "types/**/*"]
 }
